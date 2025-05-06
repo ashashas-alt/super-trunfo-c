@@ -16,21 +16,21 @@ Para compilar e rodar o código no terminal, siga os passos abaixo:
 gcc super_trunfo.c -o jogo
 ./jogo
 
-Estrutura do código
+## Estrutura do código
 Nível Novato: Cadastro de cartas e exibição dos dados.
 
 Nível Aventureiro: Cálculo da densidade populacional e PIB per capita.
 
 Nível Mestre: Comparação entre cartas e cálculo do Super Poder.
 
-Tecnologias usadas
+##Tecnologias usadas
 Linguagem C
 
 GitHub Codespaces
 
 Compilador GCC
 
-Autor
+##Autor
 Eduarda. 
 
-Este projeto faz parte de um trabalho acadêmico para aprimorar habilidades em programação C.
+##Este projeto faz parte de um trabalho acadêmico para aprimorar habilidades em programação C.
