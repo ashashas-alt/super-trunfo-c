@@ -1,3 +1,12 @@
+/*
+ * SUPER TRUNFO EM C - NIVEL NOVATO
+ * Objetivo: Cadastro básico de cartas (estado, código, cidade, população, área, PIB, pontos turísticos).
+ * 
+ * PRÓXIMOS NÍVEIS:
+ * - Aventureiro: Calcular densidade populacional e PIB per capita.
+ * - Mestre: Implementar comparações e "Super Poder".
+ */
+
 #include <stdio.h>
 
 int main (){
