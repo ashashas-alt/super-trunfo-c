@@ -1,34 +1,62 @@
-# Super Trunfo em C
+# Super Trunfo em C - Implementação Acadêmica
 
-Este projeto foi desenvolvido para criar um sistema de cadastro e comparação de cartas do jogo **Super Trunfo de Países**, usando a linguagem C.
+📚 Implementação do jogo Super Trunfo em C para disciplina de Introdução à Programação
 
-## Objetivo
+## 🎯 Funcionalidades
 
-- Permitir a entrada de dados de cidades como estado, código, população, área, PIB e pontos turísticos.
-- Calcular e exibir a densidade populacional e o PIB per capita.
-- Comparar atributos entre cartas e determinar a vencedora.
+### Nível Básico
+✔ Cadastro de 2 cartas com:
+- Estado (A-H)
+- Código (A01)
+- Cidade
+- População
+- Área (km²)
+- PIB (em bilhões)
+- Pontos turísticos
 
-## Níveis implementados
+### Nível Intermediário
+✔ Cálculos automáticos:
+- Densidade populacional = população / área
+- PIB per capita = (PIB * 1 bilhão) / população
 
-- **Nível Novato**: Cadastro de cartas e exibição dos dados.
-- **Nível Aventureiro**: Cálculo da densidade populacional e PIB per capita.
-- **Nível Mestre**: Comparação entre cartas e cálculo do Super Poder.
+### Nível Avançado
+✔ Sistema de batalha:
+- Compara: população, área, PIB, pontos turísticos (maior vence)
+- Regra especial: menor densidade vence
+- Super Poder: soma ponderada de todos atributos
 
-## Tecnologias usadas
+## ⚙️ Tecnologias
+- Linguagem C (padrão C99)
+- Compilador GCC com flags -Wall -Wextra
 
-- Linguagem C
-- GitHub Codespaces
-- Compilador GCC
+## 👩‍💻 Autora
+Eduarda - Estudante de Análise e Desenvolvimento de Sistemas
 
-## Autor
+## exemplo de uso 
+==CADASTRO CARTA 1==
 
-**Eduarda**  
-Este projeto faz parte de um trabalho acadêmico para aprimorar habilidades em programação C.
+Estado (A-H): A 
 
-## Como executar
+Código (ex: A01): A05
 
-Para compilar e rodar o código no terminal, siga os passos abaixo:
+Cidade: Acre
 
+População: 6748000
+
+Área (km²): 1200
+
+PIB (em bilhões): 35.7
+
+Pontos turisticos: 12
+
+## Lógica do Jogo
+Atributos normais: maior valor vence
+
+Densidade: menor valor vence
+
+Super Poder: combina todos atributos com peso extra na baixa densidade
+
+## ▶️ Como Executar
 ```bash
-gcc super_trunfo.c -o jogo
-./jogo
+gcc Super_Trunfo.c -o super_trunfo
+./super_trunfo
